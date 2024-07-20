@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Biscoito da Sorte</title>
+	<link rel="shortcut icon" href="./assets/images/favicon-w.png" type="image/x-icon">
+	<link rel="stylesheet" href="./assets/styles/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<!-- montserrat 700; DM Sans 400 e 700; Dancing  Script 400 -->
+</head>
+<body>
+	<main>
+		<section class="screen screen1">
+			<div class="screen1-content">
+				<h1>Qual é a sua sorte de hoje?</h1>
+				<p>Abra o biscoito e descubra!</p>
+				<img id="img-btn-cookie" src="assets/images/cookie.png" alt="imagem de biscoito da sorte fechado">
+			</div>
+		</section>
+		<section class="screen screen2 hide">
+			<div class="screen2-content">
+				<h1>Aqui está a sua sorte de hoje:</h1>
+				<div id="msg-cookie">
+					<p class="msg-cookie-text"><!-- texto inserido por JavaScript --></p>
+				</div>
+				<img src="assets/images/opened-cookie.png" alt="imagem de biscoito da sorte aberto">
+				<button id="btn-another-cookie" class="btn">Abrir outro biscoito</button>
+			</div>
+		</section>
+	</main>
+	<script src="assets/scripts/main.js"></script>
+</body>
+</html>
