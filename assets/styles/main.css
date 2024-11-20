@@ -16,6 +16,8 @@
 	--primary-color04: #E4EDF1;
 	--primary-color05: #FF9500;
 	--primary-color06: #fdae3f;
+	--primary-color07: #e92626;
+	--primary-color08: #f8c276;
 	/* GRAY COLOR */
 	--gray100: #F8F9FA;
 	--gray200: #E9ECEF;
@@ -35,9 +37,14 @@
 
 body {
 	font-size: 1.6rem;
-	background: linear-gradient(45deg, var(--primary-color01), var(--primary-color02));
+	/* efeito de animação no gradiente do background */
+	/* background: linear-gradient(45deg, var(--primary-color07), var(--primary-color08));
 	animation: bg-gradient 10s ease infinite;
-	background-size: 200% 200%;
+	background-size: 200% 200%; */
+	background-image: url('../images/bg-chinese-restaurant2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	height: 100vh;
 }
 
@@ -52,7 +59,7 @@ main{
 }
 
 h1{
-	color:var(--primary-color03);
+	color:var(--gray700);
 	font-size: 2.4rem;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
@@ -65,7 +72,7 @@ h1{
 
 p{
 	color:var(--primary-color03);
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
 
@@ -85,6 +92,7 @@ p{
 
 .screen{
 	background-color: var(--white);
+	border: 4px solid var(--gray500);
 	border-radius: 5px;
 	width: 428px;
 	padding: 4.8rem 6.4rem;
