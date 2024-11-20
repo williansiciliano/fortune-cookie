@@ -38,10 +38,10 @@
 body {
 	font-size: 1.6rem;
 	/* efeito de animação no gradiente do background */
-	/* background: linear-gradient(45deg, var(--primary-color07), var(--primary-color08));
-	animation: bg-gradient 10s ease infinite;
-	background-size: 200% 200%; */
-	background-image: url('../images/bg-chinese-restaurant2.jpg');
+	/* background: linear-gradient(45deg, var(--primary-color07), var(--primary-color08)); */
+	/* animation: bg-gradient 10s ease infinite; */
+	/* background-size: 200% 200%; */
+	background-image: url('../images/bg-chinese-restaurant2.jpg'); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
